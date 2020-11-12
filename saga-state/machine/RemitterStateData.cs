@@ -6,6 +6,7 @@ using System.Text;
 namespace saga_state.machine
 {
     //Saga Implmentation for RabbitMQ
+    //Another New Feature
     public class RemitterStateData : SagaStateMachineInstance
     {
         public Guid CorrelationId { get; set; }
