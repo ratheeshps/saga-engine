@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>saga-messages</PackageId>
+    <Authors>ratheesh</Authors>
+    <Company>Cinque</Company>
+    <Product>ESB</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\asus\source\repos\nugets\</OutputPath>
+  </PropertyGroup>
+
+</Project>
